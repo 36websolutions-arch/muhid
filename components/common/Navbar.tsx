@@ -21,11 +21,18 @@ export default function Navbar() {
   // Detect active section on scroll
   useEffect(() => {
     const handleScroll = () => {
+      // ✅ Force Home when at top
+      if (window.scrollY < 100) {
+        setActive("home");
+        return;
+      }
+
       navLinks.forEach((link) => {
         const section = document.getElementById(link.id);
         if (!section) return;
 
         const rect = section.getBoundingClientRect();
+
         if (rect.top <= 120 && rect.bottom >= 120) {
           setActive(link.id);
         }
