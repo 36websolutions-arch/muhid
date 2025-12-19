@@ -22,8 +22,7 @@ export default function Footer() {
             </div>
 
             <p className="text-[16px] font-dm-sans font-normal leading-6 text-[#BCBBC9] max-w-xs">
-              Leo elementum iaculis quam massa vitae odio sed. Morbi tincidunt
-              senectus.
+              Professional commercial cleaning trusted by businesses since 2016.
             </p>
 
             {/* SOCIAL ICONS */}
@@ -59,11 +58,6 @@ export default function Footer() {
               <li>
                 <Link href="#services" className="hover:text-white">
                   Our Services
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white">
-                  Our Team
                 </Link>
               </li>
             </ul>

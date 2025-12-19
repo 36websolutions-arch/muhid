@@ -62,9 +62,9 @@ export default function Services() {
           </div>
           {/* RIGHT STATS CARD */}
           <div className="lg:col-span-4 col-span-1 flex lg:justify-end">
-            <button className="bg-primary px-7 py-4 text-[16px] font-semibold text-white rounded-full">
+            {/* <button className="bg-primary px-7 py-4 text-[16px] font-semibold text-white rounded-full">
               View All
-            </button>
+            </button> */}
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 lg:gap-10 mt-6 lg:mt-10">

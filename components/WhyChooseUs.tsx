@@ -27,13 +27,6 @@ const features = [
     desc: "Transparent pricing with no hidden fees — ever.",
   },
 ];
-const images = [
-  "/images/brand1.png",
-  "/images/brand2.png",
-  "/images/brand3.png",
-  "/images/brand4.png",
-  "/images/brand5.png",
-];
 
 export default function WhyChooseUs() {
   return (
@@ -88,24 +81,6 @@ export default function WhyChooseUs() {
                       {feature.desc}
                     </p>
                   </div>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="mt-10">
-            <p className="text-heading text-[20px] font-normal font-dm-sans">
-              Trusted by over 90K + companies worldwide
-            </p>
-            <div className="grid lg:grid-cols-5 gap-x-10">
-              {images.map((image, index) => (
-                <div key={index} className="mt-5">
-                  <Image
-                    src={image}
-                    alt="brand"
-                    width={100}
-                    height={100}
-                    className="w-auto h-20 "
-                  />
                 </div>
               ))}
             </div>

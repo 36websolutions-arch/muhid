@@ -10,8 +10,6 @@ const navLinks = [
   { name: "Home", id: "home" },
   { name: "About Us", id: "about" },
   { name: "Services", id: "services" },
-  { name: "Pricing", id: "pricing" },
-  { name: "Contact Us", id: "contact" },
 ];
 
 export default function Navbar() {

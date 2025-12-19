@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineWatchLater } from "react-icons/md";
@@ -13,13 +14,15 @@ export default function topbar() {
           />
           Mon-Fri 08.00 - 17.00
         </span>
-        <span className="text-[16px] flex font-dm-sans text-[#6B6A7E] font-normal">
+        <Link
+          href="tel:(208)-570-8758"
+          className="text-[16px] flex font-dm-sans text-[#6B6A7E] font-normal">
           <FaPhoneAlt
             size={20}
             className="inline text-[#6B6A7E] mb-1 mr-2 text-[16px]"
           />
           (208)-570-8758
-        </span>
+        </Link>
       </div>
     </section>
   );

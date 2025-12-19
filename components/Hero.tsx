@@ -64,8 +64,8 @@ export default function Hero() {
               </h4>
 
               <p className="text-[14px] font-dm-sans font-normal text-[#6B6A7E] mt-2">
-                Professional commercial cleaning trusted by Boise businesses
-                since 2016.
+                Professional commercial cleaning trusted by businesses since
+                2016.
               </p>
 
               <Link href="tel:(208)-570-8758">
